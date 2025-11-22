@@ -1,1 +1,20 @@
 /* Add CSS Styling */
+.odd {
+    background-color: rgb(250, 110, 240);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#the-second-element {
+    color: rgb(67, 22, 240);
+    font-size: 36px;
+}
+
+p.class {
+    font-size: 24px;   
+}
+
+#another-id {
+    background-color: rgb(70, 210, 40);
+    font-size: 24px;
+    font-weight: 700;
+}
