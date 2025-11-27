@@ -3,25 +3,41 @@ body {
   font-family: sans-serif;
 }
 
+div {
+  font-size: 16px;
+  padding: 10px 8px;
+}
+
 .card {
   width: 400px;
+  height: auto;
   background: #fff;
   margin: 16px auto;
+  padding: 10px; /*Solution is 8px*/
 }
 
 .title {
+  margin-bottom: 10px; /*Solution is 8px*/
+  font-size: 16px; /*Good*/
+  padding: 8px; /*Good*/
   background: #e3f4ff;
 }
 
 .content {
   background: #e3f4ff;
+  /* Solution also has margin-bottom: 8px; and padding: 16px 8px; */
 }
 
 .button-container {
+  text-align: center; /*Good*/
+  margin-top: 10px; /* Solution says padding 8px rather than margin */
   background: #e3f4ff;
 }
 
 button {
+  display: block; /*Good*/
+  margin: 0 auto; /*Good*/
   background: white;
   border: 1px solid #eee;
+  padding: 10px 20px; /*Solution says padding 8px 24px*/
 }
